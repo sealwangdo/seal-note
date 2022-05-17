@@ -133,9 +133,15 @@ py -3.7 -m pip install
 
 
 
-## tree乱码
+## tree
 
 alias tree='tree --charset ASCII'
+
+mac的tree替代：
+
+```
+find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
+```
 
 
 
