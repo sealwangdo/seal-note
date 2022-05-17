@@ -288,3 +288,31 @@ Welcome to seal's documentation!
 ## 提交上传
 
 .gitignore文件添加docs/build/目录，不需要上传这个目录。上传：
+
+```
+git add .
+git commit -m "提交说明"
+git push -u origin master
+```
+
+
+
+## 添加Webhooks
+
+在Read the docs 项目-管理-集成中生成Webhooks：
+
+![image-20220517174758825](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjp2tsv3j21b60u0n1z.jpg)
+
+生成的Webhooks如下：
+
+![image-20220517175018064](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjrh9n51j21dy0i4djn.jpg)
+
+![image-20220517174914807](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjqdti3tj21vg0ke78z.jpg)
+
+将webhooks添加到Github 项目-设置-Webhooks红
+
+![image-20220517174851831](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjpzeoeaj21dd0u042d.jpg)
+
+
+
+剩下的就是根据构建步骤进行构建了，可能会遇到一些问题， 按照步骤解决即可！
