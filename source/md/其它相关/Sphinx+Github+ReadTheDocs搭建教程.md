@@ -1,4 +1,4 @@
-# Sphinx+Github+ReadTheDocs搭建博客
+# Sphinx+Github+ReadTheDocs搭建教程
 
 
 
