@@ -10,5 +10,5 @@ Welcome to seal-note's documentation!
    :maxdepth: 2
 
    md/思维模型/index
-   md/Other Notebook/index
+   md/其它相关/index
    
