@@ -9,8 +9,6 @@ Welcome to seal-note's documentation!
 .. toctree::
    :maxdepth: 2
 
-..   md/Seal Notebook/index
-..   md/Work Notebook/index
    md/思维模型/index
    md/Other Notebook/index
    
